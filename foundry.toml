@@ -1,0 +1,14 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+solc = "0.8.29"
+via_ir = true
+optimizer = true
+optimizer_runs = 44444444
+gas_limit = "300000000"
+# Allow deploy scripts to read JSON seed files if needed (mirrors gotchipus-core).
+fs_permissions = [{ access = "read", path = "./" }]
+
+[rpc_endpoints]
+arc_testnet = "https://rpc.testnet.arc.network"

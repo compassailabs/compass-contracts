@@ -1,0 +1,16 @@
+# Compiler files
+cache/
+out/
+broadcast/
+
+# Docs
+docs/
+
+# Dotenv file
+.env
+
+# mac
+.DS_Store
+
+tasks/
+node_modules/
